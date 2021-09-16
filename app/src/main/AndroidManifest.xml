@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RW_ListMaker_Sec2">
         <activity
+            android:name=".ui.detail.DetailActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
