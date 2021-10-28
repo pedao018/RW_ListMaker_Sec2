@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.raywenderlich.rw_listmaker_sec2.databinding.DetailFragmentBinding
@@ -44,6 +45,9 @@ class DetailFragment : Fragment() {
         binding.detailFragmentRecyclerview.adapter = recyclerViewAdapter
         viewModel.onTaskAdded = {
             recyclerViewAdapter.notifyDataSetChanged()
+        }
+        recyclerViewAdapter.onItemClick = { task ->
+            Toast.makeText(requireActivity(), task, Toast.LENGTH_SHORT).show()
         }
         return binding.root
     }
