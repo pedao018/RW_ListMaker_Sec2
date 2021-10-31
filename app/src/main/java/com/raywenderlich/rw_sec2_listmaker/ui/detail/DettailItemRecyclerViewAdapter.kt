@@ -1,10 +1,10 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.detail
+package com.raywenderlich.rw_sec2_listmaker.ui.detail
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.raywenderlich.rw_listmaker_sec2.databinding.DetailItemViewHolderBinding
-import com.raywenderlich.rw_listmaker_sec2.model.TaskList
+import com.raywenderlich.rw_sec2_listmaker.databinding.DetailItemViewHolderBinding
+import com.raywenderlich.rw_sec2_listmaker.model.TaskList
 
 class DettailItemRecyclerViewAdapter(var list: TaskList) :
     RecyclerView.Adapter<DetailItemViewHolder>() {

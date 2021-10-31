@@ -1,4 +1,4 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.main
+package com.raywenderlich.rw_sec2_listmaker.ui.main
 
 import android.app.Activity
 import android.content.Context
@@ -6,11 +6,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.InputType
-import android.util.Log
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.EditText
-import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -18,11 +16,11 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.os.bundleOf
 import androidx.fragment.app.commit
 import androidx.lifecycle.ViewModelProvider
-import com.raywenderlich.rw_listmaker_sec2.R
-import com.raywenderlich.rw_listmaker_sec2.databinding.MainActivityBinding
-import com.raywenderlich.rw_listmaker_sec2.model.TaskList
-import com.raywenderlich.rw_listmaker_sec2.ui.detail.DetailActivity
-import com.raywenderlich.rw_listmaker_sec2.ui.detail.DetailFragment
+import com.raywenderlich.rw_sec2_listmaker.R
+import com.raywenderlich.rw_sec2_listmaker.databinding.MainActivityBinding
+import com.raywenderlich.rw_sec2_listmaker.model.TaskList
+import com.raywenderlich.rw_sec2_listmaker.ui.detail.DetailActivity
+import com.raywenderlich.rw_sec2_listmaker.ui.detail.DetailFragment
 
 class MainActivity : AppCompatActivity(), MainFragment.MainFragmentListener {
     private lateinit var binding: MainActivityBinding

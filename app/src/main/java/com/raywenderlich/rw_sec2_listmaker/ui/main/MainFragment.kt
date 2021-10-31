@@ -1,4 +1,4 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.main
+package com.raywenderlich.rw_sec2_listmaker.ui.main
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -8,9 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.raywenderlich.rw_listmaker_sec2.R
-import com.raywenderlich.rw_listmaker_sec2.databinding.MainFragmentBinding
-import com.raywenderlich.rw_listmaker_sec2.model.TaskList
+import com.raywenderlich.rw_sec2_listmaker.databinding.MainFragmentBinding
+import com.raywenderlich.rw_sec2_listmaker.model.TaskList
 
 class MainFragment : Fragment(),
     ListSelectionRecyclerViewAdapter.ListSelectionRecyclerViewClickListener {

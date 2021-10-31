@@ -1,4 +1,4 @@
-package com.raywenderlich.rw_listmaker_sec2.model
+package com.raywenderlich.rw_sec2_listmaker.model
 
 import android.os.Parcel
 import android.os.Parcelable

@@ -1,8 +1,8 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.main
+package com.raywenderlich.rw_sec2_listmaker.ui.main
 
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel
-import com.raywenderlich.rw_listmaker_sec2.model.TaskList
+import com.raywenderlich.rw_sec2_listmaker.model.TaskList
 
 class MainViewModel(private val sharedPreferences: SharedPreferences) : ViewModel() {
 

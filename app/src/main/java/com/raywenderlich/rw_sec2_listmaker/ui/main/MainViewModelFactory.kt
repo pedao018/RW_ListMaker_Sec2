@@ -1,4 +1,4 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.main
+package com.raywenderlich.rw_sec2_listmaker.ui.main
 
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel

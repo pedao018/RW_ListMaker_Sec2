@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.raywenderlich.rw_listmaker_sec2">
+    package="com.raywenderlich.rw_sec2_listmaker">
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RW_ListMaker_Sec2">
         <activity
-            android:name=".ui.detail.DetailActivity"
+            android:name="com.raywenderlich.rw_sec2_listmaker.ui.detail.DetailActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="com.raywenderlich.rw_sec2_listmaker.ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

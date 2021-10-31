@@ -1,4 +1,4 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.detail
+package com.raywenderlich.rw_sec2_listmaker.ui.detail
 
 import android.app.Activity
 import android.content.Intent
@@ -9,11 +9,11 @@ import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import androidx.preference.PreferenceManager
-import com.raywenderlich.rw_listmaker_sec2.R
-import com.raywenderlich.rw_listmaker_sec2.databinding.DetailActivityBinding
-import com.raywenderlich.rw_listmaker_sec2.ui.main.MainActivity
-import com.raywenderlich.rw_listmaker_sec2.ui.main.MainViewModel
-import com.raywenderlich.rw_listmaker_sec2.ui.main.MainViewModelFactory
+import com.raywenderlich.rw_sec2_listmaker.R
+import com.raywenderlich.rw_sec2_listmaker.databinding.DetailActivityBinding
+import com.raywenderlich.rw_sec2_listmaker.ui.main.MainActivity
+import com.raywenderlich.rw_sec2_listmaker.ui.main.MainViewModel
+import com.raywenderlich.rw_sec2_listmaker.ui.main.MainViewModelFactory
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var binding: DetailActivityBinding

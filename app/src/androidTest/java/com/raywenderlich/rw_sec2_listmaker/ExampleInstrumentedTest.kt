@@ -1,4 +1,4 @@
-package com.raywenderlich.rw_listmaker_sec2
+package com.raywenderlich.rw_sec2_listmaker
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

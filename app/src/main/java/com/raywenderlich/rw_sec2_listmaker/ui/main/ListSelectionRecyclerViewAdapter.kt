@@ -1,10 +1,10 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.main
+package com.raywenderlich.rw_sec2_listmaker.ui.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.raywenderlich.rw_listmaker_sec2.databinding.ListSelectionViewHolderBinding
-import com.raywenderlich.rw_listmaker_sec2.model.TaskList
+import com.raywenderlich.rw_sec2_listmaker.databinding.ListSelectionViewHolderBinding
+import com.raywenderlich.rw_sec2_listmaker.model.TaskList
 
 class ListSelectionRecyclerViewAdapter(
     private val lists: MutableList<TaskList>,

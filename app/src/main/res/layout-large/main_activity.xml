@@ -12,7 +12,7 @@
     <!-- 1 -->
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/main_fragment_container"
-        android:name="com.raywenderlich.rw_listmaker_sec2.ui.main.MainFragment"
+        android:name="com.raywenderlich.rw_sec2_listmaker.ui.main.MainFragment"
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_marginStart="0dp"

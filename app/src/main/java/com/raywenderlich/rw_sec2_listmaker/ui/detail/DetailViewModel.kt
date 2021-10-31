@@ -1,7 +1,7 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.detail
+package com.raywenderlich.rw_sec2_listmaker.ui.detail
 
 import androidx.lifecycle.ViewModel
-import com.raywenderlich.rw_listmaker_sec2.model.TaskList
+import com.raywenderlich.rw_sec2_listmaker.model.TaskList
 
 class DetailViewModel : ViewModel() {
     lateinit var onTaskAdded: (() -> Unit)

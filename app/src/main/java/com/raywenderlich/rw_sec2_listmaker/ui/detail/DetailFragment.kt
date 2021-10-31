@@ -1,4 +1,4 @@
-package com.raywenderlich.rw_listmaker_sec2.ui.detail
+package com.raywenderlich.rw_sec2_listmaker.ui.detail
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -9,11 +9,11 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.raywenderlich.rw_listmaker_sec2.databinding.DetailFragmentBinding
-import com.raywenderlich.rw_listmaker_sec2.model.TaskList
-import com.raywenderlich.rw_listmaker_sec2.ui.main.MainActivity
-import com.raywenderlich.rw_listmaker_sec2.ui.main.MainViewModel
-import com.raywenderlich.rw_listmaker_sec2.ui.main.MainViewModelFactory
+import com.raywenderlich.rw_sec2_listmaker.databinding.DetailFragmentBinding
+import com.raywenderlich.rw_sec2_listmaker.model.TaskList
+import com.raywenderlich.rw_sec2_listmaker.ui.main.MainActivity
+import com.raywenderlich.rw_sec2_listmaker.ui.main.MainViewModel
+import com.raywenderlich.rw_sec2_listmaker.ui.main.MainViewModelFactory
 
 class DetailFragment : Fragment() {
 
